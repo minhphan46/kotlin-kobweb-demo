@@ -1,5 +1,5 @@
 This is a [Kobweb](https://github.com/varabyte/kobweb) project bootstrapped with the `app` template.
-
+![](assets/img.png)
 ## Getting Started
 
 First, run the development server by typing the following command in a terminal under the `site` folder:
