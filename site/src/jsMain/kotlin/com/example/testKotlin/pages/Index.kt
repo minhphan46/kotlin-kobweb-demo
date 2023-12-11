@@ -74,7 +74,7 @@ fun HomePage() {
                 Column(Modifier.gap(2.cssRem)) {
                     Div(HeadlineTextStyle.toAttrs()) {
                         SpanText(
-                            "Use this template as your starting point for ", Modifier.color(
+                            "Hello everyone, This is the demo website using ", Modifier.color(
                                 when (ColorMode.current) {
                                     ColorMode.LIGHT -> Colors.Black
                                     ColorMode.DARK -> Colors.White
@@ -82,7 +82,7 @@ fun HomePage() {
                             )
                         )
                         SpanText(
-                            "Kobweb",
+                            "Kotlin",
                             Modifier
                                 .color(sitePalette.brand.accent)
                                 // Use a shadow so this light-colored word is more visible in light mode
@@ -103,7 +103,7 @@ fun HomePage() {
                         // Up to you!
                         ctx.router.tryRoutingTo("/about")
                     }, colorScheme = ColorSchemes.Blue) {
-                        Text("This could be your CTA")
+                        Text("Turn into the About page")
                     }
                 }
             }

@@ -2,7 +2,7 @@
 root: .components.layouts.MarkdownLayout("About")
 ---
 
-# About this template
+# About my team
 
 This template is intended to both demonstrate some fundamentals of the Kobweb framework and act a starting point you can
 build your own site from.

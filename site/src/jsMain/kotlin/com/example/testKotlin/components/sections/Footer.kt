@@ -44,8 +44,8 @@ fun Footer(modifier: Modifier = Modifier) {
             // Huge thanks to UI Rocket (https://ui-rocket.com) for putting this great template design together for us!
             // If you like what you see here and want help building your own site, consider checking out their services.
             Link(
-                "https://ui-rocket.com",
-                "UI Rocket",
+                "https://github.com/minhphan46",
+                "minhphan46",
                 Modifier.setVariable(ColorVar, sitePalette.brand.accent).whiteSpace(WhiteSpace.NoWrap),
                 variant = UncoloredLinkVariant
             )
